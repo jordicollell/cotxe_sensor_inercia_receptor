@@ -2,7 +2,7 @@ radio.onReceivedValue(function (name, value) {
     if (name == "x") {
         endavant = value / 11
     }
-    if (value == "y") {
+    if (name == "y") {
         gir = value / 11
     }
     cuteBot.motors(endavant - gir, endavant + gir)
